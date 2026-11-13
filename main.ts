@@ -10,4 +10,4 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-writeFileSync(join(OUTPUT_DIR, 'entry.txt'), "I don't debug code anymore. I debug my AI coding agent's confidence.");
+writeFileSync(join(OUTPUT_DIR, 'entry.txt'), "My AI coding agent is so confident that when it hallucinates an API, I'm the one who doubts myself.");
